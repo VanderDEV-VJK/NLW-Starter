@@ -69,6 +69,7 @@ document
         itemLi.classList.toggle("selected")
         
         const itemId = itemLi.dataset.id
+        // console.log('ITEM ID: ', itemId) // Este console, serviria para ver o que o Id retornaria.
 
 
 
@@ -98,7 +99,7 @@ document
 
         }
         
-        console.log(selectedItems)
+        // console.log('selectedItems:', selectedItems) // Serve para ver o que será retornado no Back-end
 
         // atualizar o campo escondido com os itens selecionados
         collectedItems.value = selectedItems
